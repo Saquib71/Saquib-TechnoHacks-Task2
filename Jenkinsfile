@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Saquib71/Saquib-TechnoHacks-Task2.git'
+        git branch: 'main', url: 'https://github.com/Saquib71/Saquib-TechnoHacks-Task2.git'
             }
         }
 
